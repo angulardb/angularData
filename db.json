@@ -1,0 +1,49 @@
+{
+
+       menu:
+
+          [
+
+             {name: 'Dashboard', link: 'xyz', active:'1', sub: null},
+
+             {name: 'Student', link: '1', active:'1', sub:
+
+                [
+
+                   {name: 'Student List',link: 'xyz', active:'1', sub: null},
+
+                   {name: 'Attendance',link: 'xyz', active:'1', sub: null},
+
+                   {name: 'Assignment',link: 'xyz', active:'1', sub: null}
+
+                ]
+
+             },
+
+             {name: 'Employee', link: 'xyz', active:'1', sub:
+
+                [
+
+                   {name: 'Employee List',link: 'xyz', active:'1', sub: null},
+
+                   {name: 'Attandance',link: 'xyz', active:'1', sub: null}
+
+                ]
+
+              },       
+
+              {name: 'Admission', link: 'xyz',  active:'0', sub:
+
+                [
+
+                   {name: 'Apllication List',link: 'xyz', active:'1', sub: null},
+
+                   {name: 'New Admission',link: 'xyz', active:'1', sub: null}
+
+                ]
+
+              }
+
+          ]
+
+    }
